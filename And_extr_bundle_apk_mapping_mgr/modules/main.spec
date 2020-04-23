@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['C:\\workspace\\PycharmProjects\\BundleMgr\\modules'],
+             pathex=['C:\\workspace\\hinos-repo\\Python\\And_extr_bundle_apk_mapping_mgr\\modules'],
              binaries=[],
              datas=[],
              hiddenimports=[],
