@@ -34,10 +34,10 @@ class MainDialog(QDialog, UI.Ui_Dialog):
         self.setupUi(self)
         if DEBURG:
             self.edSavePath.setText("C:\workspace\GitProject\DO\_Res\DO000_Player")
-            self.edIconPath.setText("D:\org\DO000_Player\ic_launcher.png")
-            self.edSplashPath.setText("D:\org\DO000_Player\yk_splash.png")
+            self.edIconPath.setText("D:\org\DO000_Player\launcher.png")
+            self.edSplashPath.setText("D:\org\DO000_Player\splash.png")
             self.edGooglePath.setText("C:\workspace\GitProject\DO\_Res\DO000_Player\google-services.json")
-            self.edStringPath.setText("C:\\Users\ZeroSoft\Desktop\DNStringFactory\strings_DN000_Player.xml")
+            self.edStringPath.setText("C:\\Users\ZeroSoft\Desktop\DNStringFactory\strings.xml")
 
         self.btnOK.clicked.connect(self.makeRes)
 
@@ -54,19 +54,23 @@ class MainDialog(QDialog, UI.Ui_Dialog):
 
         if not self.CheckPath(strIconPath, EXTENSION_PNG):
             self.ShowErrorDlg(strIconPath + "확장자와 경로를 확인해주세요. (지원 확장자" + EXTENSION_PNG + ")")
+            print(strIconPath)
             return
 
-        if not self.CheckPath(strSplashPath, EXTENSION_PNG):
-            self.ShowErrorDlg(strSplashPath + "확장자와 경로를 확인해주세요. (지원 확장자" + EXTENSION_PNG + ")")
-            return
+        if not self.PassParam(strSplashPath):
+            if not self.CheckPath(strSplashPath, EXTENSION_PNG):
+                self.ShowErrorDlg(strSplashPath + "확장자와 경로를 확인해주세요. (지원 확장자" + EXTENSION_PNG + ")")
+                return
 
-        if not self.CheckPath(strGooglePath, EXTENSION_JSON):
-            self.ShowErrorDlg(strGooglePath + "확장자와 경로를 확인해주세요. (지원 확장자" + EXTENSION_JSON + ")")
-            return
+        if not self.PassParam(strGooglePath):
+            if not self.CheckPath(strGooglePath, EXTENSION_JSON):
+                self.ShowErrorDlg(strGooglePath + "확장자와 경로를 확인해주세요. (지원 확장자" + EXTENSION_JSON + ")")
+                return
 
-        if not self.CheckPath(strStringPath, EXTENSION_XML):
-            self.ShowErrorDlg(strStringPath + "확장자와 경로를 확인해주세요. (지원 확장자" + EXTENSION_XML + ")")
-            return
+        if not self.PassParam(strStringPath):
+            if not self.CheckPath(strStringPath, EXTENSION_XML):
+                self.ShowErrorDlg(strStringPath + "확장자와 경로를 확인해주세요. (지원 확장자" + EXTENSION_XML + ")")
+                return
 
         strResDir = strSavePath + "/" + DIR_RES #D:\TEST\res
         bResult = self.MakeDir(strResDir)
@@ -74,16 +78,11 @@ class MainDialog(QDialog, UI.Ui_Dialog):
             self.ShowErrorDlg(strResDir + "디렉토리 만들기 실패")
             return
 
-        bResult = shutil.copy(strGooglePath, strSavePath + "/" + FILE_DEFAULT_GOOGLE_SERVICE_NAME)
-        if not bResult:
-            self.ShowErrorDlg(FILE_DEFAULT_GOOGLE_SERVICE_NAME + "복사 실패")
-            return
-
-        str_DRAWABLE_Dir = strResDir + "/" + DIR_DRAWABLE
-        bResult = self.MakeDir(str_DRAWABLE_Dir)
-        if not bResult:
-            self.ShowErrorDlg(str_DRAWABLE_Dir + "디렉토리 만들기 실패")
-            return
+        if not self.PassParam(strGooglePath):
+            bResult = shutil.copy(strGooglePath, strSavePath + "/" + FILE_DEFAULT_GOOGLE_SERVICE_NAME)
+            if not bResult:
+                self.ShowErrorDlg(FILE_DEFAULT_GOOGLE_SERVICE_NAME + "복사 실패")
+                return
 
         arrMipPath = []
 
@@ -115,21 +114,29 @@ class MainDialog(QDialog, UI.Ui_Dialog):
             self.ShowErrorDlg(str_Mip_XXXHDPI_Dir + "디렉토리 만들기 실패")
             return
 
-        str_VALUES_Dir = strResDir + "/" + DIR_VALUES
-        bResult = self.MakeDir(str_VALUES_Dir)
-        if not bResult:
-            self.ShowErrorDlg(str_VALUES_Dir + "디렉토리 만들기 실패")
-            return
+        if not self.PassParam(strSplashPath):
+            str_DRAWABLE_Dir = strResDir + "/" + DIR_DRAWABLE
+            bResult = self.MakeDir(str_DRAWABLE_Dir)
+            if not bResult:
+                self.ShowErrorDlg(str_DRAWABLE_Dir + "디렉토리 만들기 실패")
+                return
 
-        bResult = shutil.copy(strSplashPath, str_DRAWABLE_Dir + "/" + FILE_DEFAULT_SPLASH_NAME)
-        if not bResult:
-            self.ShowErrorDlg(FILE_DEFAULT_SPLASH_NAME + "복사 실패")
-            return
+            bResult = shutil.copy(strSplashPath, str_DRAWABLE_Dir + "/" + FILE_DEFAULT_SPLASH_NAME)
+            if not bResult:
+                self.ShowErrorDlg(FILE_DEFAULT_SPLASH_NAME + "복사 실패")
+                return
 
-        bResult = shutil.copy(strStringPath, str_VALUES_Dir + "/" + FILE_DEFAULT_STRING_NAME)
-        if not bResult:
-            self.ShowErrorDlg(FILE_DEFAULT_STRING_NAME + "복사 실패")
-            return
+        if not self.PassParam(strStringPath) :
+            str_VALUES_Dir = strResDir + "/" + DIR_VALUES
+            bResult = self.MakeDir(str_VALUES_Dir)
+            if not bResult:
+                self.ShowErrorDlg(str_VALUES_Dir + "디렉토리 만들기 실패")
+                return
+
+            bResult = shutil.copy(strStringPath, str_VALUES_Dir + "/" + FILE_DEFAULT_STRING_NAME)
+            if not bResult:
+                self.ShowErrorDlg(FILE_DEFAULT_STRING_NAME + "복사 실패")
+                return
 
         im = Image.open(strIconPath)
         nSize = im.size
@@ -183,6 +190,12 @@ class MainDialog(QDialog, UI.Ui_Dialog):
                 result = name.find(extension)
                 if result == -1:
                     return False
+            return True
+        else:
+            return False
+
+    def PassParam(self, path):
+        if path == "3dh":
             return True
         else:
             return False
