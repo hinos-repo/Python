@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c073b035-9c13-44c5-8c64-67ce91290383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TubeResMgr/modules/UI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TubeResMgr/modules/dist/main.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TubeResMgr/modules/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/modules/command.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../changeProperties/.idea/changeProperties.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BundleMgr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BundleMgr.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/Analysis-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/EXE-00.toc" afterDir="false" />
@@ -14,8 +15,25 @@
       <change beforePath="$PROJECT_DIR$/modules/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/PYZ-00.pyz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/build/main/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/PYZ-00.toc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/xref-main.html" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/xref-main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/warn-main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/dist/ExtrBundleMgr_V2.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/dist/ExtrBundleMgr_V2.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/modules/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/modules/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.spec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/Analysis-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/EXE-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PKG-00.pkg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PKG-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PYZ-00.pyz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PYZ-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/Tree-00.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/Tree-01.toc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/base_library.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/main.exe.manifest" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/warn-main.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/xref-main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TubeResMgr/modules/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/main.spec" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,10 +56,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TubeResMgr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -64,7 +82,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.command">
     <configuration name="basics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BundleMgr" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,6 +97,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/_codeExample/basics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="command" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="BundleMgr" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/modules/command.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -133,6 +173,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.command" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.basics" />
         <item itemvalue="Python.test" />
@@ -156,6 +197,21 @@
       <workItem from="1581569956421" duration="281000" />
       <workItem from="1587622056051" duration="463000" />
       <workItem from="1587628658321" duration="2066000" />
+      <workItem from="1594368721394" duration="2524000" />
+      <workItem from="1595324847897" duration="121000" />
+      <workItem from="1602824719337" duration="15000" />
+      <workItem from="1602824749594" duration="4155000" />
+      <workItem from="1607909367141" duration="37000" />
+      <workItem from="1608167228280" duration="84000" />
+      <workItem from="1608442549341" duration="6000" />
+      <workItem from="1613715452574" duration="3159000" />
+      <workItem from="1613718753627" duration="650000" />
+      <workItem from="1613976171389" duration="321000" />
+      <workItem from="1616980768471" duration="18000" />
+      <workItem from="1617098674525" duration="2975000" />
+      <workItem from="1617157480809" duration="4303000" />
+      <workItem from="1617246808927" duration="2820000" />
+      <workItem from="1617326740808" duration="2318000" />
     </task>
     <servers />
   </component>
@@ -176,15 +232,45 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/main.py</url>
+          <line>216</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/main.py</url>
+          <line>223</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/command.py</url>
+          <line>73</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/modules/command.py</url>
+          <line>107</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BundleMgr$main.coverage" NAME="main Coverage Results" MODIFIED="1581570014925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/BundleMgr$basics.coverage" NAME="basics Coverage Results" MODIFIED="1580871973330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_codeExample" />
     <SUITE FILE_PATH="coverage/BundleMgr$test.coverage" NAME="test Coverage Results" MODIFIED="1580870523476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/And_extr_bundle_apk_mapping_mgr$command.coverage" NAME="command Coverage Results" MODIFIED="1617340370336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/And_extr_bundle_apk_mapping_mgr$main.coverage" NAME="main Coverage Results" MODIFIED="1617110037600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
   </component>
 </project>

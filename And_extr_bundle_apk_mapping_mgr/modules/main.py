@@ -9,7 +9,8 @@ from PyQt5.QtWidgets import *
 from datetime import datetime
 from pathlib import Path
 import shutil
-AND_BUNDLE_NAME = "app"
+AND_BUNDLE_NAME = "app-release"
+AND_BUNDLE_NAME2 = "app"
 AND_MAPPING_NAME = "mapping"
 AND_APK_NAME = "app-release"
 
@@ -19,21 +20,22 @@ AND_APK_EXTENSION = ".apk"
 
 AND_APK_PATH = "/app/release/" + AND_APK_NAME + AND_APK_EXTENSION
 AND_BUNDLE_PATH = "/app/release/" + AND_BUNDLE_NAME + AND_BUNDLE_EXTENSION
+AND_AUTO_BUNDLE_PATH = "/app/build/outputs/bundle/release/" + AND_BUNDLE_NAME + AND_BUNDLE_EXTENSION
+AND_AUTO_BUNDLE_PATH2 = "/app/build/outputs/bundle/release/" + AND_BUNDLE_NAME2 + AND_BUNDLE_EXTENSION
 AND_MAPPING_PATH = "/app/build/outputs/mapping/release/" + AND_MAPPING_NAME + AND_MAPPING_EXTENSION
 
 DEBURG = False
 
-arrCountry = ["ko", "jp"]
-arrMode = ["Bundle + Mapping", "APK + Mapping", "Only Bundle", "Only APK"]
+arrCountry = ["ko", "jp", "multi"]
+arrMode = ["Bundle + Mapping", "APK + Mapping", "Only Bundle", "Only APK", "Auto Build(Bundle + Mapping)"]
 
 class MainDialog(QDialog, UI.Ui_Dialog):
     def __init__(self):
         QDialog.__init__(self, None)
         self.setupUi(self)
-        if DEBURG:
-            self.edProjectPath.setText("C:\workspace\GitProject\DM")
-            self.edSavePath.setText("D:\DM")
-            self.edVersion.setText("3")
+        self.edProjectPath.setText("C:\workspace\ZeroProject\A_Radio\AE")
+        self.edSavePath.setText("\\\\192.168.53.7\data\\bundle\AE")
+        self.edVersion.setText("1")
 
         for mode in arrMode:
             self.cbMode.addItem(mode)
@@ -80,6 +82,8 @@ class MainDialog(QDialog, UI.Ui_Dialog):
             self.CopyOnlyBundle(edProjectPath, edSavePath, edVersion)
         elif nMode == 3:
             self.CopyOnlyAPK(edProjectPath, edSavePath, edVersion)
+        elif nMode == 4:
+            self.AutoCopyBundleAndMapping(edProjectPath, edSavePath, edVersion)
 
         # print("edProjectPath : {}".format(edProjectPath))
         # print("edSavePath : {}".format(edSavePath))
@@ -205,6 +209,45 @@ class MainDialog(QDialog, UI.Ui_Dialog):
         else:
             self.ShowOKDlg("완료되었습니다.")
 
+
+    def AutoCopyBundleAndMapping(self, edProjectPath, edSavePath, edVersion):
+        projectName = str(self.cbProjectName.currentText())
+        bundlePath = edProjectPath + "/" + projectName + AND_AUTO_BUNDLE_PATH
+        mappingPath = edProjectPath + "/" + projectName + AND_MAPPING_PATH
+        country = str(self.cbCountry.currentText())
+        bResult = self.CheckPath(bundlePath)
+        if not bResult:
+            bundlePath = edProjectPath + "/" + projectName + AND_AUTO_BUNDLE_PATH2
+            bResult = self.CheckPath(bundlePath)
+            if not bResult:
+                self.ShowErrorDlg("해당 경로에 {}파일이 없습니다.".format(bundlePath))
+                return
+        bResult = self.CheckPath(mappingPath)
+        if not bResult:
+            self.ShowErrorDlg("해당 경로에 {}파일이 없습니다.".format(AND_MAPPING_NAME + AND_MAPPING_EXTENSION))
+            return
+        copyBundlePath = "{}/{}/Bundle/V{}/".format(edSavePath, country, edVersion)
+        self.MakeDir(copyBundlePath)
+
+        copyMappingPath = "{}/{}/Mapping/V{}/".format(edSavePath, country, edVersion)
+        self.MakeDir(copyMappingPath)
+
+        bundleName = "{}_Bundle_V{}_{}{}".format(projectName, edVersion, datetime.today().strftime("%Y%m%d"),
+                                                 AND_BUNDLE_EXTENSION)
+        bResult1 = shutil.copy(bundlePath, copyBundlePath + bundleName)
+        mappingName = "{}_MAPPING_V{}_{}{}".format(projectName, edVersion, datetime.today().strftime("%Y%m%d"),
+                                                   AND_MAPPING_EXTENSION)
+        bResult2 = shutil.copy(mappingPath, copyMappingPath + mappingName)
+
+        if not bResult1:
+            self.ShowErrorDlg("번들 파일 생성 실패")
+
+        if not bResult2:
+            self.ShowErrorDlg("매핑 파일 생성 실패")
+
+        if bResult1 and bResult2:
+            self.ShowOKDlg("완료되었습니다.")
+
     def SearchDir(self):
         edProjectPath = self.edProjectPath.text()
         if not edProjectPath:
@@ -233,6 +276,7 @@ class MainDialog(QDialog, UI.Ui_Dialog):
         msg = QMessageBox()
         msg.setIcon(QMessageBox.Information)
         msg.setText("OK")
+        msg.setWindowTitle("알림")
         msg.setInformativeText(message)
         msg.exec_()
 
