@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='latin-1'?>
+<resources xmlns:ns0="http://schemas.android.com/tools" ns0:ignore="MissingTranslation">
+
+
+  <string name="app_title">MYAPPNAME</string>
+
+
+  <string name="radio_tab">Song</string>
+
+
+  <string name="photo_tab">Foto</string>
+
+
+  <string name="rank_tab">Rang</string>
+
+
+  <string name="tab_like">Liked</string>
+
+
+  
+
+
+  <string name="group_tab">Künstler</string>
+
+
+  <string name="picture_tab">Foto</string>
+
+
+  
+
+
+  <string name="error_toast">Während des Vorgangs ist ein Fehler aufgetreten. Bitte kontaktieren Sie den Entwickler.</string>
+
+
+  <string name="wrong_access_message">Ungültige Anfrage.</string>
+
+
+  
+
+
+  <string name="desc_btn_play">Wiedergabe und Stopp</string>
+
+
+  <string name="no_connected_network">Die Netzwerkverbindung ist nicht stabil.\nBitte überprüfen Sie die Verbindung und versuchen Sie es erneut.</string>
+
+
+  <string name="notification_ch_play_id">Radio-Wiedergabe</string>
+
+
+  <string name="notification_ch_play_name">Radio-Wiedergabe</string>
+
+
+  <string name="notification_ch_chat_id">Chat-ID</string>
+
+
+  <string name="notification_ch_chat_name">Chat-Benachrichtigung</string>
+
+
+  <string name="push_channel_id">Kanal 1</string>
+
+
+  <string name="push_channel_name">Kanal</string>
+
+
+  <string name="network_error">Die Netzwerkverbindung ist nicht stabil.\nBitte überprüfen Sie die Verbindung und versuchen Sie es erneut.</string>
+
+
+  <string name="communicate_error">Es liegt ein Problem mit dem Server vor.\nBitte versuchen Sie es erneut.</string>
+
+
+  <string name="navigation_drawer_open">Navigationsleiste öffnen</string>
+
+
+  <string name="navigation_drawer_close">Navigationsleiste schließen</string>
+
+
+  <string name="nav_header_desc">Navigationsheader</string>
+
+
+  <string name="menu_katalk">Empfohlen von kakaoTalk</string>
+
+
+  <string name="menu_line">LINE</string>
+
+
+  <string name="kakaotalk_not_install">Sie haben KakaoTalk nicht installiert.</string>
+
+
+  <string name="line_not_install">Sie haben LINE nicht installiert.</string>
+
+
+  <string name="menu_share">Teilen</string>
+
+
+  <string name="menu_rating">Bewertung beginnen</string>
+
+
+  <string name="menu_setting">Einstellungen</string>
+
+
+  <string name="update_message_new">Es ist eine neue Version verfügbar.\n Möchten Sie jetzt aktualisieren?</string>
+
+
+  <string name="update_message_low">Diese Version wird nicht mehr unterstützt.\n Bitte aktualisieren Sie diese Version zuerst, bevor Sie sie verwenden.</string>
+
+
+  <string name="youtube_download_title">Benachrichtigungen</string>
+
+
+  <string name="share_chooser">Teilen</string>
+
+
+  <string name="input_chat_hint">Bitte geben Sie Ihren Text ein</string>
+
+
+  <string name="chatting_title">Chat</string>
+
+
+  <string name="delete_title">Löschen</string>
+
+
+  <string name="notice_title">Hinweis</string>
+
+
+  <string name="login_title">Anmelden</string>
+
+
+  <string name="save_complete_title">Speichern abgeschlossen</string>
+
+
+  <string name="exit_msg">Möchten Sie die App verlassen?</string>
+
+
+  <string name="delete_community">Möchten Sie den Kommentar wirklich löschen?</string>
+
+
+  <string name="set_wallpaper">Möchten Sie das Bild als Hintergrundbild einrichten?</string>
+
+
+  <string name="photo_download_success">Ihr Bild wurde in der Galerie gespeichert.</string>
+
+
+  <string name="upload_cancel">Möchten Sie die Bildregistrierung abbrechen?</string>
+
+
+  <string name="login_require">Für diese Funktion müssen Sie sich anmelden. Möchten Sie sich anmelden?</string>
+
+
+  <string name="select_play_link">Wählen Sie den Song, den Sie hören möchten!</string>
+
+
+  <string name="alert_youtube_message">Der ausgewählte Inhalt ist Videoinhalt. \nVideoinhalte können gemäß den Richtlinien von YouTube nicht angezeigt werden, wenn der Bildschirm ausgeschaltet ist oder andere Aufgaben ausgeführt werden. \nBitte denken Sie daran, wenn Sie den Inhalt nutzen. \n \nWir hoffen, Sie haben einen weiteren schönen Tag mit unserer App.</string>
+
+
+  <string name="alert_radio_message">Der aktuell ausgewählte Inhalt ist Radioinhalt. \nRadioinhalte sind Inhalte, die Sie auch dann anhören können, wenn der Bildschirm ausgeschaltet ist oder andere Aufgaben ausgeführt werden. \n \nSie können den Wiedergabestatus oben in der Benachrichtigungsleiste ändern.</string>
+
+
+  <string name="alert_upload_message">Hochgeladene Fotos können in den folgenden Fällen möglicherweise nicht veröffentlicht werden: 
+\n
+\n1. Fotos, die gegen das Urheberrecht verstoßen 
+\n2. Erneutes Hochladen eines retuschierten Fotos, das von einer anderen Partei ohne deren Erlaubnis aufgenommen wurde
+\n3. Offizielle Social Media Fotos eines Künstlers 
+\n4. Fotos, die für den Sänger nicht relevant sind \n\nBitte überprüfen.</string>
+
+
+  <string name="no_connected_wifi">Derzeit erlauben die Einstellungen nur die WLAN-Wiedergabe von Inhalten.\n Wenn Sie mit 3G/LTE/5G wiedergeben, müssen Sie die 3G/LTE/5G-Nutzung in den Einstellungen auf \"EIN\" einstellen.</string>
+
+
+  <string name="wait_upload_message">Hochladen...</string>
+
+
+  <string name="wait_login_message">Anmelden... \nBitte warten.</string>
+
+
+  <string name="wait_user_message">Benutzerinformationen abrufen... \nBitte warten.</string>
+
+
+  <string name="wait_get_photo_message">Laden des Fotos... \nBitte warten.</string>
+
+
+  <string name="wait_get_comment_message">Laden der Kommentare... \nBitte warten.</string>
+
+
+  <string name="wait_download_picture_message">Herunterladen des Fotos... \nBitte warten.</string>
+
+
+  <string name="logout_dlg_message">Möchten Sie sich abmelden?</string>
+
+
+  <string name="setting_doz_activity_title">Ausnahme bei der Batterieoptimierung</string>
+
+
+  <string name="v_tvWebWarnMessage">Die Internetverbindung ist nicht stabil.</string>
+
+
+  <string name="setting_doz_title1">Ausnahme bei der Batterieoptimierung</string>
+
+
+  <string name="setting_doz_title2">Hintergrunddaten aktivieren</string>
+
+
+  <string name="setting_doz_title3">Energiesparmodus deaktiviert</string>
+
+
+  <string name="setting_doz_samsung">SAMSUNG</string>
+
+
+  <string name="doz_activitiy_title">Einstellungen des Energiesparmodus</string>
+
+
+  <string name="setting_doz_open">Einrichten</string>
+
+
+  <string name="setting_doz_contents1">Wenn die Hintergrundwiedergabe aufgrund der Batterieoptimierung nicht möglich ist, wird sie für den normalen Betrieb der App vom Batterieoptimierungsziel ausgeschlossen.</string>
+
+
+  <string name="setting_doz_contents2">Um eine nahtlosere Radio-Wiedergabeumgebung zu unterstützen, sind Hintergrunddaten auch dann zulässig, wenn die App nicht verwendet wird. (Datenspeichermodus muss AUS sein.)</string>
+
+
+  <string name="setting_doz_contents3">Für die stabile Nutzung der App sind in den Geräteeinstellungen Ausnahmen für die Energiesparmodus oder die Energiesparfunktion vorhanden.</string>
+
+
+  <string name="play_ready_msg">Vorbereitung der Wiedergabe. Bitte warten.</string>
+
+
+  <string name="comment_input">Bitte geben Sie den Kommentar ein.</string>
+
+
+  <string name="input_text_empty">Bitte geben Sie den Text ein.</string>
+
+
+  <string name="input_text_limit">Sie können nur bis zu 512 Zeichen eingeben.</string>
+
+
+  <string name="permission_no_has_download">Wir können keine Fotos herunterladen, da Sie die Berechtigung widerrufen haben.</string>
+
+
+  <string name="permission_no_has_bring">Wir können nicht auf die Galerie zugreifen, da Sie die Berechtigung widerrufen haben.</string>
+
+
+  <string name="comment_injenction_defence">Ihre Kommentare werden eingeschränkt, da Sie zu viele Kommentare nacheinander gepostet haben.</string>
+
+
+  <string name="community_injenction_defence">Ihre Beiträge werden eingeschränkt, da Sie die Community zu oft infolge verwendet haben.</string>
+
+
+  
+
+
+  <string name="upload_picture_help_text">Fotos des Künstlers hinzufügen (max. 5) 
+\nBitte denken Sie daran, die Fotoquelle anzugeben.</string>
+
+
+  <string name="set_background_wallpaper_success">Als Hintergrundbild festlegen</string>
+
+
+  <string name="permission_deny_message">Wir können nicht auf das Fotoalbum zugreifen, da Sie die Berechtigung widerrufen haben.</string>
+
+
+  <string name="chk_no_show_alarm">Nicht mehr anzeigen.</string>
+
+
+  <string name="youtube_install">Sie benötigen einen YouTube-Player, um das Video abzuspielen. \nMöchten Sie ihn installieren?</string>
+
+
+  <string name="button_sel_whole_on">Alle auswählen</string>
+
+
+  <string name="button_sel_whole_off">Alle abwählen</string>
+
+
+  <string name="button_install">Installieren</string>
+
+
+  <string name="button_exit">Verlassen</string>
+
+
+  <string name="button_delete">Löschen</string>
+
+
+  <string name="button_cancel">Abbrechen</string>
+
+
+  <string name="button_ok">Bestätigen</string>
+
+
+  <string name="button_login">Anmelden</string>
+
+
+  <string name="button_upload">Bestätigen</string>
+
+
+  <string name="button_update">Aktualisieren</string>
+
+
+  <string name="button_like">Like</string>
+
+
+  <string name="button_easy_login">Einfache Anmeldung</string>
+
+
+  <string name="button_google_login">Anmeldung mit Google</string>
+
+
+  <string name="review_popup_message">Höhere Bewertungen sind eine große Unterstützung für die Entwickler der App.\n\nWir bedanken uns für die positiven Bewertungen mit einer tollen App bei Ihnen.</string>
+
+
+  <string name="alert_system_alarm_message">Systembenachrichtigungen sind derzeit AUS.
+\n
+\nUm die Radio-Wiedergabe im oberen Benachrichtigungsbereich zu verwenden, ändern Sie bitte die Benachrichtigungseinstellungen auf EIN.</string>
+
+
+  <string name="message_update_error">Update fehlgeschlagen.\nBitte versuchen Sie es erneut</string>
+
+
+  <string name="admob_attribution">ANZEIGE</string>
+
+
+  <string name="admob_visit">Besuch</string>
+
+
+  <string name="set_stop_time">Timer beenden</string>
+
+
+  <string name="btn_timer_time_cancel">Stopp</string>
+
+
+  <string name="btn_timer_time_set">Einstellungen</string>
+
+
+  <string name="sleeptime_close">Abbrechen</string>
+
+
+  <string name="timer_minute">min</string>
+
+
+  <string name="timer_hour">h</string>
+
+
+  <string name="toast_timer_ok_message">Der Timer wurde eingestellt.</string>
+
+
+  <string name="toast_timer_cancel_message">Das Einstellen des Timers wurde abgebrochen.</string>
+
+
+  <string name="timer_exit_text">%02d:%02d</string>
+
+
+  <string name="alarm_text_1">10 Minuten</string>
+
+
+  <string name="alarm_text_2">15 Minuten</string>
+
+
+  <string name="alarm_text_3">30 Minuten</string>
+
+
+  <string name="like_help_text">Sie haben Ihren Favoriten keine Inhalte hinzugefügt.\nBitte fügen Sie Inhalte zu Ihren Favoriten hinzu.</string>
+
+
+  <string name="push_text">Push-Benachrichtigungen</string>
+
+
+  <string name="push_on_text">Push-Benachrichtigungen verwenden.</string>
+
+
+  <string name="push_off_text">Push-Benachrichtigungen nicht verwenden.</string>
+
+
+  <string name="exit_play_on_text">Die Inhalte werden auch dann weiter wiedergegeben, wenn die App geschlossen wird.</string>
+
+
+  <string name="exit_play_off_text">Die Wiedergabe wird beendet, wenn die App geschlossen wird.</string>
+
+
+  <string name="lte_play_on_text">Sie können das Radio im Netzwerk hören.</string>
+
+
+  <string name="lte_play_off_text">Sie können das Radio über WLAN abspielen.</string>
+
+
+  <string name="exit_play_use_text">Spielen Sie nach dem Ende weiter</string>
+
+
+  <string name="saving_text">Energieeinsparung in der App nicht verwenden</string>
+
+
+  <string name="network_environment_text">Netzwerk verwenden</string>
+
+
+  <string name="network_enviroment_wifi_text">Bei Einstellung auf Nur WLAN wiedergeben</string>
+
+
+  <string name="btn_review_text">Rezension</string>
+
+
+  <string name="next_sorry_ment">Bitte versuchen Sie es später noch einmal.</string>
+
+
+  <string name="bottom_play_box_default_ment">Bitte wählen Sie einen Song aus</string>
+
+
+  <string name="comment_title_text">Kommentare</string>
+
+
+  <string name="upload_picture_title_text">Foto hochladen</string>
+
+
+  <string name="detail_picture_title_text">Beliebte Fotos</string>
+
+
+  <string name="login_title_text">Anmelden</string>
+
+
+  <string name="login_out_title_text">Abmelden</string>
+
+
+  <string name="login_modify_title_text">Informationen ändern</string>
+
+
+  <string name="login_change_button_text">Bild ändern</string>
+
+
+  <string name="login_delete_button_text">Bild löschen</string>
+
+
+  <string name="login_fail">Anmeldung fehlgeschlagen</string>
+
+
+  <string name="login_success">Sie sind angemeldet.</string>
+
+
+  <string name="login_modify">Änderung abgeschlossen.</string>
+
+
+  <string name="login_button_modify">Ändern</string>
+
+
+  <string name="toast_send_chat_fail">Chat-Übertragung fehlgeschlagen</string>
+
+
+  <string name="upload_picture_nickname">Nickname</string>
+
+
+  <string name="upload_picture_email">E-Mail-Adresse</string>
+
+
+  <string name="upload_picture_source">Quelle</string>
+
+
+  <string name="upload_picture_source_hint">Bitte geben Sie die Quelle an.</string>
+
+
+  <string name="upload_picture_upload">Foto hochladen</string>
+
+
+  <string name="upload_picture_help">Fügen Sie Fotos des Künstlers hinzu (min 1, max 5).</string>
+
+
+  <string name="upload_no_nickname">Kein Nickname angegeben.</string>
+
+
+  <string name="upload_no_source">Keine Quelle angegeben.</string>
+
+
+  <string name="upload_no_pictures">Bitte wählen Sie ein Foto zum Hochladen aus.</string>
+
+
+  <string name="upload_limit_size">Die maximale Größe jedes Fotos, das Sie hochladen können, beträgt 4 MB.</string>
+
+
+  <string name="upload_success">Erfolgreich hochgeladen.</string>
+
+
+  <string name="upload_gallery_limit">Sie können nicht mehr auswählen.</string>
+
+
+  <string name="upload_gallery_attachment">Hinzufügen</string>
+
+
+  <string name="setting_last_version_text">Das ist die neueste Version.</string>
+
+
+  <string name="setting_old_version_text">Die App muss aktualisiert werden.</string>
+
+
+  <string name="setting_version_text">Ihre Version</string>
+
+
+  <string name="item_baaner_tv">Video</string>
+
+
+  <string name="item_baaner_radio">Radio</string>
+
+
+  <string name="item_picture_save_text">Herunterladen</string>
+
+
+  <string name="item_picture_share_text">Teilen</string>
+
+
+  <string name="item_picture_background_setting">Hintergrundeinstellungen</string>
+
+
+  <string name="picture_other_text">Andere</string>
+
+
+  <string name="picture_sharer_text">Geteilt von:</string>
+
+
+  <string name="picture_source_text">Quelle:</string>
+
+
+  <string name="comment_plus">Mehr Kommentare</string>
+
+
+  <string name="hint_invalid_nickname">Nur englische Sprache und Zahlen</string>
+
+
+  <string name="alert_invalid_nickname_ver_korea">Sie können nur englische Sprache und Zahlen für Ihren Nicknamen verwenden.</string>
+
+
+  <string name="alert_invalid_nickname_ver_japan">Nur Japanisch/Englisch/Zahlen sind erlaubt.</string>
+
+
+  <string name="next_play_fail">Es gibt keinen nächsten Song.</string>
+
+
+  <string name="prev_play_fail">Es gibt keinen vorherigen Song.</string>
+
+
+  <string name="block_timer">Verbleibende Zeit: %d Sekunden</string>
+
+
+  <string name="msg_nickname_length_short">Bitte geben Sie mindestens %d Zeichen für Ihren Nicknamen ein</string>
+
+
+  <string name="msg_nickname_length_long">Bitte wählen Sie einen Nicknamen, der weniger als %d Zeichen enthält.</string>
+
+
+  <string name="search_hint_text">Geben Sie Ihre Suchbegriffe ein</string>
+
+  <string name="radio_list_text">Radioliste</string>
+
+  <string name="recent_play_text">Kürzlich gespielt</string>
+
+  <string name="country_select_text">Länderauswahl</string>
+
+  <string name="tab_public">Popularität</string>
+
+  <string name="tab_region">Bereich</string>
+
+  <string name="radio_drag_title">Wiedergabeliste</string>
+
+  <string name="sort_public_text">Popularität</string>
+
+  <string name="sort_name_text">Durch Name</string>
+
+  <string name="sue_title">Ein Problem melden</string>
+
+  <string name="sue_radio_title">Sendung Name</string>
+
+  <string name="sue_send">Senden</string>
+
+  <string name="sue_email_hint">Bitte geben Sie die zu kontaktierende E-Mail-Adresse ein.</string>
+
+  <string name="sue_error_contents_title">Fehlerinhalt</string>
+
+  <string name="sue_input_error_contents_hint">Bitte geben Sie die Fehlerdetails ein.</string>
+
+  <string name="exit_title">Willst du wirklich gehen?</string>
+
+  <string name="reco_message">Hören Sie schnell und einfach Radio auf Cocoradio. cocoradio herunterladen</string>
+  <string name="alarm_text_4">45 Minuten</string>
+  <string name="alarm_text_5">60 Minuten</string>
+  <string name="alarm_text_6">90 Minuten</string>
+  <string name="alarm_text_7">120 Minuten</string>
+  <string name="menu_inquiry">Anfrage</string>
+  <string name="theme_setting">Themeneinstellung</string>
+  <string name="qna_text">Kontaktiere uns</string>
+  <string name="regist_text">Registrieren</string>
+
+  <string name="qna_title_text">Titel</string>
+  <string name="qna_contents_text">Fehlerinhalt</string>
+  <string name="qna_add_file_text">Datei anhängen</string>
+  <string name="qna_file_limit_text">※ Es können 2 Bilddateien angehängt werden.</string>
+
+  <string name="upload_no_title">Bitte geben Sie einen Titel ein.</string>
+  <string name="upload_no_contents">Bitte geben Sie Ihren Inhalt ein.</string>
+
+  <string name="upload_regist_text">Möchten Sie sich registrieren?</string>
+  <string name="upload_regist_complete_text">Ihre Anfrage wurde erhalten.</string>
+  <string name="upload_regist_contents_hint">Bitte geben Sie Ihre Fehler- oder Anfragedaten ein.</string>
+
+  <string name="qna_list_tab_whole">Alle</string>
+  <string name="qna_list_tab_completed">Antwort abgeschlossen</string>
+  <string name="qna_list_tab_wait">Warten auf Antwort</string>
+  <string name="qna_upload_img_text">Anhang Bild</string>
+  <string name="qna_answer_text">Antworten</string>
+
+
+</resources>
