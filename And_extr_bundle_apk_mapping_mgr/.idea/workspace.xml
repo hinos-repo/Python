@@ -2,38 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c073b035-9c13-44c5-8c64-67ce91290383" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/modules/command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../changeProperties/.idea/changeProperties.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BundleMgr.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BundleMgr.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransProject/.idea/TransProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../TransProject/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/Analysis-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/Analysis-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/EXE-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/EXE-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/PKG-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/PKG-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/PYZ-00.toc" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/PYZ-00.toc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/base_library.zip" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/base_library.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/build/main/warn-main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/modules/build/main/warn-main.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/dist/ExtrBundleMgr_V2.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/dist/ExtrBundleMgr_V2.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modules/main.spec" beforeDir="false" afterPath="$PROJECT_DIR$/modules/main.spec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/Analysis-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/EXE-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PKG-00.pkg" beforeDir="false" afterPath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PKG-00.pkg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PKG-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PYZ-00.pyz" beforeDir="false" afterPath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PYZ-00.pyz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/PYZ-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/Tree-00.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/Tree-01.toc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/base_library.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/main.exe.manifest" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/warn-main.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/build/main/xref-main.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../TubeResMgr/modules/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TubeResMgr/modules/main.spec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AppNameChangeTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppNameChangeTool/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +28,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AppNameChangeTool" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -212,6 +184,8 @@
       <workItem from="1617157480809" duration="4303000" />
       <workItem from="1617246808927" duration="2820000" />
       <workItem from="1617326740808" duration="2318000" />
+      <workItem from="1617680185855" duration="639000" />
+      <workItem from="1617692807742" duration="1341000" />
     </task>
     <servers />
   </component>
@@ -270,7 +244,7 @@
     <SUITE FILE_PATH="coverage/BundleMgr$main.coverage" NAME="main Coverage Results" MODIFIED="1581570014925" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/BundleMgr$basics.coverage" NAME="basics Coverage Results" MODIFIED="1580871973330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/_codeExample" />
     <SUITE FILE_PATH="coverage/BundleMgr$test.coverage" NAME="test Coverage Results" MODIFIED="1580870523476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/And_extr_bundle_apk_mapping_mgr$command.coverage" NAME="command Coverage Results" MODIFIED="1617340370336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
+    <SUITE FILE_PATH="coverage/And_extr_bundle_apk_mapping_mgr$command.coverage" NAME="command Coverage Results" MODIFIED="1617695092565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
     <SUITE FILE_PATH="coverage/And_extr_bundle_apk_mapping_mgr$main.coverage" NAME="main Coverage Results" MODIFIED="1617110037600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/modules" />
   </component>
 </project>

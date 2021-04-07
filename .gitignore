@@ -1,2 +1,5 @@
-And_extr_bundle_apk_mapping_mgr/modules/dist/main.exe
-TubeResMgr/modules/dist/TubeResMgr_V2.exe
+/TransProject/data/
+/*/.idea/workspace.xml
+/*/.idea/vcs.xml
+*.exe
+/AppNameChangeTool/material/
