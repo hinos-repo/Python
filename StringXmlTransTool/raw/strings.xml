@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="app_name1">About Us</string>
     <string name="app_name2">Reactivate Card</string>
+    <string name="network_error">The network condition is not stable.\nPlease check the connection and try again.</string>
 </resources>

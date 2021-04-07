@@ -66,7 +66,10 @@ def translate_text(dict, project_id="YOUR_PROJECT_ID", source_country="en", targ
     for v in dict.values():
         temp += v + "|"
 
+    temp = temp.replace("\\n", "[]")
     translate_contents = temp[:-1]
+
+    print(temp)
 
     response = client.translate_text(
         request={
@@ -86,7 +89,7 @@ def translate_text(dict, project_id="YOUR_PROJECT_ID", source_country="en", targ
     if len(dict) == len(split_contents):
         i = 0
         for k in dict.keys():
-            dict[k] = split_contents[i].strip().replace("'", "\'")
+            dict[k] = split_contents[i].strip().replace("'", "\\'").replace("[]", "\\n")
             i += 1
     else:
         errorLog("딕셔너리와 리스트 사이즈가 다릅니다.")
