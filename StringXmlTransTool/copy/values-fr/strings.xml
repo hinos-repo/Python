@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name1">À propos de nous</string>
-    <string name="app_name2">Réactiver la carte</string>
-    <string name="network_error">L\'état du réseau n\'est pas stable. \n Veuillez vérifier la connexion et réessayer.</string>
+    <string name="error_toast">Une erreur s\'est produite pendant le processus. Veuillez contacter le développeur.</string>
+
+    <string name="wrong_access_message">Approche non valide.</string>
+
+    <string name="desc_btn_play">Lecture et arrêt</string>
+
+    <string name="no_connected_network">L\'état du réseau n\'est pas stable. Veuillez vérifier la connexion et réessayer.</string>
 </resources>

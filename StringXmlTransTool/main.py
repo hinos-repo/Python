@@ -6,7 +6,19 @@ from data.config import PROJECT_ID
 from data.config import PROJECT_SERVICE_JSON
 from google.cloud import translate
 
+"""
+2021.04.07 Hinos
 
+* 주의
+- COUNTRY_DICT 변수는 안드로이드, 구글의 국가코드를 정리해 놓은 기준표이다.
+- 주석에서 이야기하는 국가 코드는 안드로이드용 국가코드를 뜻한다.
+- values 폴더(안드로이드 기본 폴더)는 따로 안 만들어주니 주의해야 한다.
+
+* 사용법
+1. MY_SELECT_COUNTRY_LIST 변수에 국가 코드를 추가한다.
+2. MY_SOURCE_COUNTRY 변수에 raw/strings.xml의 국가 코드를 추가한다.
+3. 코드를 실행한다.   
+"""
 
 COUNTRY_DICT = {
         # 안드로이드 :  # 구글
@@ -40,7 +52,7 @@ COUNTRY_DICT = {
 }
 
 MY_SELECT_COUNTRY_LIST = [
-    'ko', 'fr'
+    'ar', 'cs', 'fr', 'it', 'in'
 ]
 
 MY_SOURCE_COUNTRY = "en"
@@ -89,7 +101,7 @@ def translate_text(dict, project_id="YOUR_PROJECT_ID", source_country="en", targ
     if len(dict) == len(split_contents):
         i = 0
         for k in dict.keys():
-            dict[k] = split_contents[i].strip().replace("'", "\\'").replace("[]", "\\n")
+            dict[k] = split_contents[i].strip().replace("'", "\\'").replace("[]", "\\n").replace(" \\n", "")
             i += 1
     else:
         errorLog("딕셔너리와 리스트 사이즈가 다릅니다.")

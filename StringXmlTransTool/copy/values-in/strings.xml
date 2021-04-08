@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="error_toast">Terjadi kesalahan selama proses tersebut. Silakan hubungi pengembang.</string>
+
+    <string name="wrong_access_message">Pendekatan tidak valid.</string>
+
+    <string name="desc_btn_play">Putar dan Berhenti</string>
+
+    <string name="no_connected_network">Kondisi jaringan tidak stabil. Periksa koneksi dan coba lagi.</string>
+</resources>

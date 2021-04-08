@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="error_toast">Během procesu došlo k chybě. Kontaktujte vývojáře.</string>
+
+    <string name="wrong_access_message">Neplatný přístup.</string>
+
+    <string name="desc_btn_play">Přehrát a zastavit</string>
+
+    <string name="no_connected_network">Stav sítě není stabilní. Zkontrolujte připojení a zkuste to znovu.</string>
+</resources>

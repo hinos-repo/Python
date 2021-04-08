@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
-    <string name="app_name1">About Us</string>
-    <string name="app_name2">Reactivate Card</string>
-    <string name="network_error">The network condition is not stable.\nPlease check the connection and try again.</string>
+    <string name="error_toast">An error occurred during the process. Please contact the developer.</string>
+
+    <string name="wrong_access_message">Invalid approach.</string>
+
+    <string name="desc_btn_play">Play and Stop</string>
+
+    <string name="no_connected_network">The network condition is not stable.\nPlease check the connection and try again.</string>
 </resources>
