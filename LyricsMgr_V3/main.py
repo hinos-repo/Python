@@ -12,8 +12,8 @@ import subprocess
 import requests
 import re
 import xml.etree.ElementTree as ET
-
 from searchTitleInfo import searchTitleInfo
+
 
 CONST_LYRICID = "\<lyricID\>(.*?)\<\/lyricID\>"
 CONST_TITLE = "\<title\>(.*?)\<\/title\>"
@@ -184,8 +184,14 @@ class MainDialog(QDialog, UI.Ui_Dialog):
             self.ShowErrorDlg("lrc -> srt 실패")
             return
 
-        soundPath = strSavePath+"/"+"사운드+이미지.mp4"
-        strCmd = "ffmpeg -y -loop 1 -i {imgPath} -i {soundPath} -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest {savePath}".format(imgPath=strPutImgFilePath, soundPath=strPutSoundFilePath, savePath=soundPath)
+        soundPath = strSavePath+"/"+"result.mp4"
+        # strCmd = "ffmpeg -y -loop 1 -i {imgPath} -i {soundPath} -c:v libx264 -tune stillimage -c:a aac -b:a 192k -pix_fmt yuv420p -shortest {savePath}".format(imgPath=strPutImgFilePath, soundPath=strPutSoundFilePath, savePath=soundPath)
+        # Error initializing filter 'format' with args 'yuv420p"'
+        # Error reinitializing filters!
+        # Failed to inject frame into filter network: Invalid argument
+        # Error while processing the decoded data for stream #0:0 발생
+        strCmd = "ffmpeg -y -loop 1 -i {imgPath} -i {soundPath} -vf scale=2*trunc(iw/2):2*trunc(ih/2),setsar=1 -c:v libx264 -preset medium -tune stillimage -crf 18 -c:a copy -shortest -pix_fmt yuv420p {savePath}".format(
+            imgPath=strPutImgFilePath, soundPath=strPutSoundFilePath, savePath=soundPath)
 
         code = subprocess.call(strCmd, shell=True)
         if code != 0:
