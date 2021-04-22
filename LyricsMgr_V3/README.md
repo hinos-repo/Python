@@ -7,4 +7,4 @@ PyQt5, FFMPEG, Requests
 - 가사 검색 기능
 - Mp3 파일 + 이미지 파일 + ts파일로 MP4 파일 변환
 
-[![예제](http://img.youtube.com/vi/UJQaY9R6IgU/2.jpg)](https://youtu.be/UJQaY9R6IgU?t=0s) 
+[![예제](https://user-images.githubusercontent.com/60995477/115651913-21dca780-a367-11eb-8971-e1b907ff156e.png)](https://youtu.be/UJQaY9R6IgU?t=0s) 
