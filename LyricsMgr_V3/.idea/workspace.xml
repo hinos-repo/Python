@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="164d76ea-eaf9-41cf-a22d-bd28159b40bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TransProject/.idea/TransProject.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransProject/language.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransProject/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TransProject/raw/strings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../And_extr_bundle_apk_mapping_mgr/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../And_extr_bundle_apk_mapping_mgr/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AppNameChangeTool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AppNameChangeTool/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../And_extr_bundle_apk_mapping_mgr/modules/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/../And_extr_bundle_apk_mapping_mgr/modules/command.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/AutoChangeUrl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AutoChangeUrl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,40 +22,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>text</find>
-      <find>lyricID</find>
-      <find>ST_SEARCHLYRIC_LIST</find>
-      <find>lyric</find>
-      <find>Element</find>
-      <find>ElementTree</find>
-      <find>tree.iter()</find>
-      <find>lib</find>
-      <find>attrlb</find>
-      <find>attrib</find>
-      <find>tag</find>
-      <find>arrArTist</find>
-      <find>ter()</find>
-      <find>775360</find>
-      <find>title</find>
-      <find>artist</find>
-      <find>&lt;ns1:lyricID&gt;</find>
-      <find>SEARCH_TITLE_NAME</find>
-      <find>SEARCH_TITLE_NAM</find>
-      <find>result3</find>
-      <find>CONST_ST_SEARCHLYRIC_LIST</find>
-      <find>data</find>
-      <find>UTF</find>
-      <find>CONST_LYRICID</find>
-      <find>edPath</find>
-      <find>edImgFilePath</find>
-      <find>if</find>
-      <find>자막 +</find>
-      <find>font</find>
-      <find>pylrc</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -64,7 +29,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../AppNameChangeTool" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -166,6 +131,7 @@
       <workItem from="1581582628794" duration="208000" />
       <workItem from="1617696999912" duration="1245000" />
       <workItem from="1617757435867" duration="1210000" />
+      <workItem from="1619055769306" duration="6253000" />
     </task>
     <servers />
   </component>
@@ -199,13 +165,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>179</line>
-          <option name="timeStamp" value="3" />
+          <line>205</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/main.py</url>
-          <line>199</line>
-          <option name="timeStamp" value="4" />
+          <line>186</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -213,7 +179,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/AutoChangeUrl$main.coverage" NAME="main Coverage Results" MODIFIED="1580281707582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv/Include" />
     <SUITE FILE_PATH="coverage/AutoChangeUrl$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1581582730327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/LyricsMgr_V3$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1581583010933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LyricsMgr_V3$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1619062456951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="masterDetails">
     <states>

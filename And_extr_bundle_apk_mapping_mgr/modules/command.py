@@ -80,11 +80,9 @@ def AutoCopyAPKAndMapping(projectName, base_path, save_path, version, country):
     copyAPKPath = "{}/{}/APK/V{}/".format(save_path, country, version)
     MakeDir(copyAPKPath)
 
-
     bundleName = "{}_APK_V{}_{}{}".format(projectName, version, datetime.today().strftime("%Y%m%d"),
-                                             AND_APK_EXTENSION)
+                                          AND_APK_EXTENSION)
     bResult1 = shutil.copy(apkPath, copyAPKPath + bundleName)
-
 
     if not bResult1:
         print("번들 파일 생성 실패")
@@ -92,7 +90,8 @@ def AutoCopyAPKAndMapping(projectName, base_path, save_path, version, country):
     if bResult1:
         print("완료되었습니다.")
 
-base_path = "C:\workspace\ZeroProject\A_Radio\AB"
+
+base_path = "C:\workspace/ZeroProject/A_Radio/AB"
 
 temp = os.listdir(base_path)
 for t in temp:
@@ -100,8 +99,8 @@ for t in temp:
         AutoCopyBundleAndMapping(
             t,
             base_path,
-            "\\\\192.168.53.7\data\\bundle\AB",
-            "20",
+            "\\\\192.168.53.7/data/bundle/AB",
+            "21",
             "multi"
         )
 
@@ -117,7 +116,3 @@ for t in temp:
 #             "20",
 #             "multi"
 #         )
-
-
-
-
