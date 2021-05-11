@@ -14,6 +14,7 @@ PyQt5, FFMPEG, Requests
 - 가사 텍스트를 lrc 파일로 저장
 - ffmpeg으로 lrc 파일을 srt로 변환
 - ffmpeg으로 mp3 + jpg를 mp4 파일로 변환
-- ffmpeg으로 mp4 + srt로 가사 적용
+- ffmpeg으로 mp4 파일에 srt 가사 적용
 
+## 시연 영상
 [![예제](https://user-images.githubusercontent.com/60995477/115651985-46d11a80-a367-11eb-8f14-89c881330e14.png)](https://youtu.be/UJQaY9R6IgU?t=0s) 
