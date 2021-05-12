@@ -17,4 +17,4 @@ PyQt5, FFMPEG, Requests
 - ffmpeg으로 mp4 파일에 srt 가사 적용
 
 ## 시연 영상
-[![예제](https://user-images.githubusercontent.com/60995477/115651985-46d11a80-a367-11eb-8f14-89c881330e14.png)](https://youtu.be/UJQaY9R6IgU?t=0s) 
+[![예제](https://user-images.githubusercontent.com/60995477/117915395-279f2a80-b320-11eb-93f4-4e9ca94d5bba.png)](https://youtu.be/UJQaY9R6IgU?t=0s) 
