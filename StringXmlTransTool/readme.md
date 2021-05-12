@@ -18,4 +18,4 @@
 3.7 이하 버전에서 사용해야 될 경우 copytree의 덮어쓰기 기능을 따로 구현해야하며, dictionary 대신 ordereddict을 사용해야 한다.
 
 ## 시연 영상
-[![예제](https://user-images.githubusercontent.com/60995477/117915395-279f2a80-b320-11eb-93f4-4e9ca94d5bba.png)](https://youtu.be/bsLSPnVvUno?t=0s) 
+[![예제](https://user-images.githubusercontent.com/60995477/115651985-46d11a80-a367-11eb-8f14-89c881330e14.png)](https://youtu.be/bsLSPnVvUno?t=0s) 
